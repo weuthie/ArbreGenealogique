@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pageadmin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title>Page Admin</title>
+</head>
+<body>
+    <nav class="btnnav">
+        <div>
+            <button class="ajou" type="submit">Ajouter</button> 
+        </div>
+        <div>
+            <button class="dec" type="submit">Deconnexion</button>
+        </div>
+      </nav>
+   <div class="users">
+   </div>
+
+   <div class="divajout" id="div1">
+    <form class="formajou" id="form1" action="">
+        <i class="fa-solid fa-xmark fa" id="solid" style="color: red;font-size:50px ;"></i>
+        <input class="name" name="nom" type="text" placeholder="name">
+        <input class="email" name="email" type="text" placeholder="email">
+        <input class="pwq" name="pwd" type="text" placeholder="mot de passe">
+        <input class="btnajout btn3" type="submit" value="Ajouter">
+        
+        <input class="btnajout btn3" id="btn" type="submit" value="Ajouter" style="visibility:hidden ;">
+
+    </form>
+   </div>
+   <script src="pageadmin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://photoshop-kopona.com/uploads/posts/2019-02/1550441916_32.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+ 
+}
+section{
+    background-color: white;
+    /* height: 40vh; */
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.conteneur{
+    background-color: white;
+    width:100% ;
+    height: 15vh;
+   
+
+}
+.message{
+    /* background-color: white; */
+    padding: 20px;
+    padding-bottom: 20px;
+    border-left: 2px solid rgba(128, 128, 128, 0.494);
+    width:100% ;
+    height: 60vh;
+   
+}
+.Smessage {
+    background: #820f2ac1;
+    margin-left: 40px;   
+}
+.Rmessage{
+    background: #a25365b9;
+    margin-left: 10px;
+
+}
+
+.Rmessage , .Smessage{
+    /* width:20% ; */
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Stime{
+    margin-left: 40px;
+}
+.Rtime{
+    margin-left: 10px;
+
+}
+.zonetext{
+    background-color: white;
+    margin: 20px;
+
+    
+
+}
+.send{
+    color: #820f2ac1;
+    font-size: 20px;
+}
+.text{
+    font-size: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration:  none;
+}
+ul{
+list-style: none;
+}
+.liste{
+    margin: 20px;
+}
+.dec{
+    background: #820f2ac1;
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px;
+
+}
+.btnnav{
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+}

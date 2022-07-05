@@ -1,0 +1,85 @@
+
+*{
+  margin: 0;
+  padding: 0;  
+}
+body{
+    width: 100%;
+    height: 100%; 
+    background-image: url(https://photoshop-kopona.com/uploads/posts/2019-02/1550441916_32.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    margin: 13px;
+    background-image: url(https://photoshop-kopona.com/uploads/posts/2019-02/1550441916_32.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btnmodif , .btnsup , .dec , .ajou , .btnajout , .btnarbre{
+    font-size: 39px;
+    background-color:#820f4a;
+    color: azure;
+    padding: 12px;
+    border-radius: 7px;
+    box-shadow: 30px;
+
+
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.user1{
+    /* width: 30%; */
+    height: 30%;
+    background-color: #820f4ab1;
+	font-family: 'Roboto', sans-serif;
+    margin: auto;
+    margin:13px 13px 13px 13px;
+    padding: auto;
+    border-radius: 30px;
+}
+h3{
+    padding: 12px;
+    margin: 12px;
+    color: aliceblue;
+}
+
+.formajou{
+    display: flex;
+    flex-direction: column;
+    background-color: #9a236268;
+    width: 700px;
+    padding: 20px;
+}
+input{
+    margin: 12px;
+    font-size: 40px;
+    color: black;
+}
+.divajout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #806d7727;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    visibility:hidden;  
+}
+
+
+
+
+

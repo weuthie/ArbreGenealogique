@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://photoshop-kopona.com/uploads/posts/2019-02/1550441916_32.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+}
+#fils, #user, #parent ,#grandparent, #frere{
+    /* width:20% ; */
+    /* height: 80vh; */
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-bottom:2px solid rgba(128, 128, 128, 0.439) ;
+}
+p{
+     margin: 16px;
+    /* border: 2px solid ; */
+    /* border-radius: 4px; */
+    padding: 4px;
+}
+.dec{
+    background-color:#820f4a;
+    color: #fff;
+    border: #820f4a;
+    box-shadow: #820f4a;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 16px;
+}
+h6{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 15px;
+}
